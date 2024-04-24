@@ -144,8 +144,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/logger
       lucide-react:
-        specifier: ^0.279.0
-        version: 0.279.0(react@18.2.0)
+        specifier: ^0.290.0
+        version: 0.290.0(react@18.2.0)
       prisma:
         specifier: ^5.0.0
         version: 5.0.0
@@ -171,8 +171,8 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0(@remix-run/server-runtime@1.19.2)(remix-auth@3.4.0)
       remix-typedjson:
-        specifier: ^0.2.0
-        version: 0.2.0(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
+        specifier: ^0.3.0
+        version: 0.3.1(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0)
       secure-webhooks:
         specifier: ^0.3.0
         version: 0.3.0
@@ -335,8 +335,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/utils
       '@bsmnt/scrollytelling':
-        specifier: ^0.2.8
-        version: 0.2.8(@types/react-dom@18.2.7)(@types/react@18.2.22)(gsap@3.12.2)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^0.3.0
+        version: 0.3.0(@types/react-dom@18.2.7)(@types/react@18.2.22)(gsap@3.12.2)(react-dom@18.2.0)(react@18.2.0)
       '@t3-oss/env-nextjs':
         specifier: ^0.6.0
         version: 0.6.0(typescript@5.2.2)(zod@3.22.2)
@@ -359,8 +359,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/logger
       lucide-react:
-        specifier: ^0.279.0
-        version: 0.279.0(react@18.2.0)
+        specifier: ^0.290.0
+        version: 0.290.0(react@18.2.0)
       next:
         specifier: 13.5.3
         version: 13.5.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)
@@ -519,8 +519,8 @@ importers:
         specifier: workspace:*
         version: link:../utils
       lucide-react:
-        specifier: ^0.279.0
-        version: 0.279.0(react@18.2.0)
+        specifier: ^0.290.0
+        version: 0.290.0(react@18.2.0)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -3256,8 +3256,8 @@ packages:
     resolution: {integrity: sha512-Tbsj02wXCbqGmzdnXNk0SOF19ChhRU70BsroIi4Pm6Ehp56in6vch94mfbdQ17DozxkL3BAVjbZ4Qc1a0HFRAg==}
     dev: false
 
-  /@bsmnt/scrollytelling@0.2.8(@types/react-dom@18.2.7)(@types/react@18.2.22)(gsap@3.12.2)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-aHReL4HtBkWkqp+5uo7GFbfyzc3lT5iZzX7hTSI/alwazptusAkpk47JKOXPPGWHtLa13ttEumSn4B7gF44KoQ==}
+  /@bsmnt/scrollytelling@0.3.0(@types/react-dom@18.2.7)(@types/react@18.2.22)(gsap@3.12.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-alCfegeLC+EE7NGuLWa5qCHp3Q/LEadm8ikJTW73cJ+e5FrMu2qsSHJGW2Z+WG1Bi3jGWx+AxKAGQEhVyKh+1g==}
     peerDependencies:
       gsap: '>=3'
       react: '>=18'
@@ -13547,8 +13547,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /lucide-react@0.279.0(react@18.2.0):
-    resolution: {integrity: sha512-LJ8g66+Bxc3t3x9vKTeK3wn3xucrOQGfJ9ou9GsBwCt2offsrT2BB90XrTrIzE1noYYDe2O8jZaRHi6sAHXNxw==}
+  /lucide-react@0.290.0(react@18.2.0):
+    resolution: {integrity: sha512-CBDPRLOPjdo+bVlxhaa7FVWaB8OrZZQ34mwm0Fsz9ut6JltN/Td55640ur8bRWSJuz6+nX2klKrpBpV7ktwD3Q==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -16845,11 +16845,11 @@ packages:
       uuid: 8.3.2
     dev: false
 
-  /remix-typedjson@0.2.0(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0):
-    resolution: {integrity: sha512-vSi+Q8h9Mej1eljxu/3Jim080hQ6DCmQxrpntmlrQy/DoIBn153z/TXd8jiTg5cAtxP5/EmL6DTcK2NCi+6EBA==}
+  /remix-typedjson@0.3.1(@remix-run/react@1.19.2)(@remix-run/server-runtime@1.19.2)(react@18.2.0):
+    resolution: {integrity: sha512-XaLU3slWaUXTWPQe6u5rX4xJuqr665+wk1mRmepFu5Hn4DTP9V0zGOkCqCphCExxZ2Kqg5u+uZbas6AZRaxQzA==}
     peerDependencies:
-      '@remix-run/react': ^1.16.0
-      '@remix-run/server-runtime': ^1.16.0
+      '@remix-run/react': ^1.16.0 || ^2.0
+      '@remix-run/server-runtime': ^1.16.0 || ^2.0
       react: ^17.0.2 || ^18.0.0
     dependencies:
       '@remix-run/react': 1.19.2(react-dom@18.2.0)(react@18.2.0)
