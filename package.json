@@ -41,7 +41,7 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "packageManager": "pnpm@8.9.2",
+  "packageManager": "pnpm@8.10.0",
   "nano-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --cache-location ./node_modules/.cache/eslint --fix",
     "*.{js,jsx,json,yml,yaml,css,ts,tsx,md,mdx}": "prettier --write"
