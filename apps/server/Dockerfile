@@ -6,7 +6,7 @@
 # 4) Build the app
 
 # set the base image for all the other steps
-FROM node:20-bullseye-slim AS base
+FROM node:21-bullseye-slim AS base
 # Install openssl for Prisma
 # 👇 Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
 # RUN apk add --no-cache openssl libc6-compat
